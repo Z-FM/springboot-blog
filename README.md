@@ -1,4 +1,4 @@
-# Jantent
+# Z-FM
 用spring boot开发的web博客系统
 # 概述
 
@@ -18,13 +18,13 @@
 
 # 效果图
 - 首页展示
-![alt](http://www.janti.cn/upload/2018/05/q2v7ug8ml6isgp93lhij8pvqlt.png)
+![alt](http://www.yourjuly.com/upload/2018/05/q2v7ug8ml6isgp93lhij8pvqlt.png)
 
 - 文章编辑
-![alt](http://www.janti.cn/upload/2018/05/pj08ddivuehtto8vnna7ot1rf3.png)
+![alt](http://www.yourjuly.com/upload/2018/05/pj08ddivuehtto8vnna7ot1rf3.png)
 
 - 文章管理
-![alt](http://www.janti.cn/upload/2018/05/2roqtej4umhclo0rta76cs8eed.png)
+![alt](http://www.yourjuly.com/upload/2018/05/2roqtej4umhclo0rta76cs8eed.png)
 
 # 项目需求
 ## 项目背景
@@ -115,19 +115,19 @@
 
  
 ## 结构设计
-![alt](http://www.janti.cn/upload/2018/05/ungedgq714gpoqi707016alr7g.png)
+![alt](http://www.yourjuly.com/upload/2018/05/ungedgq714gpoqi707016alr7g.png)
 熟悉spring开发的同学，相信对此结构图也并不陌生。平时的开发过程中，结构设计是重要的缓解，特别是协作开发的时候，明细的分包，模块化，可减少在git提交时的冲突。
 
 ## 业务设计
 本模块主要介绍一些关键的业务流程。
 - 发布文章流程：
-![alt](http://www.janti.cn/upload/2018/05/36qmnl6sa6h3irsjo03o7arf1e.png)
+![alt](http://www.yourjuly.com/upload/2018/05/36qmnl6sa6h3irsjo03o7arf1e.png)
 
 
 - **修改文章的流程大致上和发布是相似的，这里不再赘述了**
 
 - 登录流程
-![alt](http://www.janti.cn/upload/2018/05/ptrqrhl9kuhj9p29kejv5i8tj8.png)
+![alt](http://www.yourjuly.com/upload/2018/05/ptrqrhl9kuhj9p29kejv5i8tj8.png)
 
 - 文件上传
   - 在写文章的时候，通常会使用到图片，可以引用一些网络上的图片，更好的是本系统支持上传文件和图片
@@ -137,7 +137,7 @@
   - 其他文件支持下载
   - **文件上传流程图**
 
-![alt](http://www.janti.cn/upload/2018/05/6biht8rofqivnp3jm1dv5h1he9.png)
+![alt](http://www.yourjuly.com/upload/2018/05/6biht8rofqivnp3jm1dv5h1he9.png)
 
 
 - 首页展示
@@ -224,7 +224,7 @@ uid | int| 10  |false| false |组合主键，标签ID
 
 - 本项目的crud操作采用mybatis的逆向功能，对于特殊操作，需要自己手写sql语句
 
-- springboot如何使用mybatis，以及mybatis的逆向工程，请参考[springboot与mybatis](http://www.janti.cn/article/springboot-mybaits)
+- springboot如何使用mybatis，以及mybatis的逆向工程，请参考[springboot与mybatis](http://www.yourjuly.com/article/springboot-mybaits)
 
 - 编写service层，根据需求分析和概要设计，将具体业务转成具体代码
 
@@ -260,20 +260,9 @@ uid | int| 10  |false| false |组合主键，标签ID
 
 - 打包，使用springboot的mvn插件，打成jar包
 
-## 开发总结
-
-- [springboot常用注解](http://www.janti.cn/article/springbootzhujie) 
-- [srpingboot整合mybatis](http://www.janti.cn/article/springboot-mybaits)
-- [springboot之邮件的发送](http://www.janti.cn/article/springbootmail)
-- [springboot之thymeleaf的使用](http://www.janti.cn/article/springbootthymeleaf)
-- [springboot之定时任务](http://www.janti.cn/article/springbootscheduletask)
-- [springboot之netty的使用](http://www.janti.cn/article/springbootpackage)
-- [springboot之redis的整合与使用](http://www.janti.cn/article/springbootredis)
-
-- **以上是我学习springboot总结的一些博客，特此分享**
 
 # 网站地址
 
-  **[www.janti.cn](http://www.janti.cn)**
+  **[www.yourjuly.com](http://www.yourjuly.com)**
 
-  **[项目代码](https://github.com/JayTange/Jantent)**
+  **[项目代码](https://github.com/Z-FM/springboot-blog)**
