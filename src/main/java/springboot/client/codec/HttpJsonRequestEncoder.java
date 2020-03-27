@@ -2,7 +2,14 @@ package springboot.client.codec;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
-import io.netty.handler.codec.http.*;
+import io.netty.handler.codec.http.DefaultFullHttpRequest;
+import io.netty.handler.codec.http.FullHttpRequest;
+import io.netty.handler.codec.http.HttpHeaderNames;
+import io.netty.handler.codec.http.HttpHeaderValues;
+import io.netty.handler.codec.http.HttpHeaders;
+import io.netty.handler.codec.http.HttpMethod;
+import io.netty.handler.codec.http.HttpUtil;
+import io.netty.handler.codec.http.HttpVersion;
 import springboot.server.codec.AbstractHttpJsonEncoder;
 import springboot.server.codec.HttpJsonRequest;
 
@@ -28,7 +35,7 @@ public class HttpJsonRequestEncoder extends AbstractHttpJsonEncoder<HttpJsonRequ
             HttpHeaders headers = request.headers();
             headers.set(HttpHeaderNames.HOST, InetAddress.getLocalHost()
                     .getHostAddress());
-            headers.set(HttpHeaderNames.CONNECTION, HttpHeaders.Values.CLOSE);
+            headers.set(HttpHeaderNames.CONNECTION, io.netty.handler.codec.http.HttpHeaders.Values.CLOSE);
             headers.set(HttpHeaderNames.ACCEPT_ENCODING,
                     HttpHeaderValues.GZIP.toString() + ','
                             + HttpHeaderValues.DEFLATE.toString());

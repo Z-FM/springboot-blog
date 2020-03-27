@@ -17,7 +17,7 @@ import javax.mail.internet.MimeMessage;
 import java.io.File;
 
 /**
- * @author janti
+ * @author Z-FM
  * @date 2018/5/3 22:07
  */
 @Component
