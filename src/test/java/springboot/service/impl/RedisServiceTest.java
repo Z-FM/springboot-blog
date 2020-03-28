@@ -26,7 +26,7 @@ import java.util.List;
 import static org.junit.Assert.*;
 
 /**
- * @author tangj
+ * @author zfm
  * @date 2018/5/12 19:57
  */
 @RunWith(SpringRunner.class)
@@ -57,7 +57,7 @@ public class RedisServiceTest {
         List<MetaDto> categories = metaService.getMetaList(Types.CATEGORY.getType(), null, WebConst.MAX_POSTS);
         context.setVariable("categories", categories);
         context.setVariable("articles", articles);
-        String html = templateEngine.process("themes/jantent/index",context);
+        String html = templateEngine.process("themes/zfm/index",context);
         System.out.println(html);
     }
 }

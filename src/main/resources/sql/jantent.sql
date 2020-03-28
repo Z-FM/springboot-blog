@@ -1,9 +1,9 @@
 
 -- 创建数据库
-create database `jantent` default character set utf8 collate utf8_general_ci;
+create database `Z-FM` default character set utf8 collate utf8_general_ci;
 codesearch
 
-use jantent;
+use Z-FM;
 
 DROP TABLE IF EXISTS `t_logs`;
 

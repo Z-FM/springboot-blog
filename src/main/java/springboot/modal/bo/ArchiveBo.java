@@ -8,7 +8,7 @@ import java.util.List;
 
 /**
  * 文章
- * @author tangj
+ * @author zfm
  */
 public class ArchiveBo implements Serializable {
 

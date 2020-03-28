@@ -9,11 +9,11 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * 抽象类controller
  * 用于统一渲染页面url，页面名称，获取session中的用户
- * @author tangj
+ * @author zfm
  * @date 2018/1/21 11:25
  */
 public abstract class AbstractController {
-    public static String THEME = "themes/jantent";
+    public static String THEME = "themes/zfm";
 
     protected MapCache cache = MapCache.single();
 

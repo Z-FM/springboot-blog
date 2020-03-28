@@ -18,7 +18,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * @author tangj
+ * @author zfm
  * @date 2018/1/21 21:56
  */
  @Component
@@ -26,7 +26,7 @@ public class Commons {
 
      private static ISiteService siteService;
 
-     public static String THEME = "themes/jantent";
+     public static String THEME = "themes/zfm";
 
      private static final List EMPTY = new ArrayList(0);
 

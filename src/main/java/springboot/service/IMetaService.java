@@ -6,7 +6,7 @@ import springboot.modal.vo.MetaVo;
 import java.util.List;
 
 /**
- * @author tangj
+ * @author zfm
  * @date 2018/1/24 21:56
  */
 public interface IMetaService {

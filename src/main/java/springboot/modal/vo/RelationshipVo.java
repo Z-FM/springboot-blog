@@ -3,7 +3,7 @@ package springboot.modal.vo;
 import java.io.Serializable;
 
 /**
- * @author tangj
+ * @author zfm
  * @date 2018/1/21 11:17
  */
 public class RelationshipVo implements Serializable{

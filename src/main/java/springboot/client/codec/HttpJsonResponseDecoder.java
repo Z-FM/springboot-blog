@@ -8,7 +8,7 @@ import springboot.server.codec.HttpJsonResponse;
 import java.util.List;
 
 /**
- * @author tangj
+ * @author zfm
  * @date 2018/4/15 21:48
  */
 public class HttpJsonResponseDecoder extends AbstractHttpJsonDecoder<FullHttpResponse> {
