@@ -1,0 +1,5 @@
+FROM adoptopenjdk/openjdk8:jre8u432-b04-ea-beta-ubuntu-nightly
+MAINTAINER 240058892@email.com
+VOLUME /app
+COPY target/blog-1.1.jar /app/springboot-blog.jar
+ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/springboog-blog.jar"]
